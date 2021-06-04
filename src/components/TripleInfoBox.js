@@ -9,10 +9,10 @@ function TripleInfoBox() {
   return (
     <div>
         <div className="container">
-            <InfoBox icon={add_icon} title={"Game Collection"} description=
-              {"Your whole collection in one place. Add any game you want."}/>
-            <InfoBox icon={filter_icon} title={"Filtering"} description=
-              {"Filter your shelf by game length, console, or title. Stay organized."}/>
+            <InfoBox icon={add_icon} title={"Application Tracking"} description=
+              {"Track all jobs you've applied to. Stay organized."}/>
+            <InfoBox icon={filter_icon} title={"Metrics"} description=
+              {"View graphs and metrics based on personal application data."}/>
             <InfoBox icon={checkmark_icon} title={"Backlogs"} description=
               {"Clear your backlog by marking off games you've beaten."}/>
         </div>
