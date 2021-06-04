@@ -19,7 +19,7 @@ function Nav() {
         <Link to="/Login">
           <a id="login-btn">LOGIN</a>
         </Link>
-        <a className="nav-item" href="#">ABOUT</a>
+        <a className="nav-item" href="#">DEMO</a>
       </div>
     </div>
   );
