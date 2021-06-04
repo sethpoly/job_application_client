@@ -18,7 +18,7 @@ function Login() {
             </Link>
         </div>
         <div className="login-container"> 
-            <h1 className="header-title">{pageType ? 'Welcome Back' : 'Start Collecting'}.</h1>
+            <h1 className="header-title">{pageType ? 'Welcome Back' : 'Start Tracking'}.</h1>
             {pageType ? null : <input className="input-login" type="text" placeholder="Username"></input>}
             <input className="input-login" type="text"placeholder="Email"></input>
             <input className="input-login" type="text"placeholder="Password"></input>
