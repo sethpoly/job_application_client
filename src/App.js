@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import Login from './components/Login';
+import Home from './components/Home';
 
 import CreateBook from './components/CreateBook';
 import ShowBookList from './components/ShowBookList';
@@ -12,8 +14,9 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path='/' component={ShowBookList} />
-          <Route path='/create-book' component={CreateBook} />
+          <Route exact path='/' component={Home} />
+          <Route path="/login" component={Login} />
+
           <Route path='/edit-book/:id' component={UpdateBookInfo} />
           <Route path='/show-book/:id' component={ShowBookDetails} />
         </div>
