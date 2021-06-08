@@ -13,8 +13,8 @@ function TripleInfoBox() {
               {"Track all jobs you've applied to. Stay organized."}/>
             <InfoBox icon={filter_icon} title={"Metrics"} description=
               {"View graphs and metrics based on personal application data."}/>
-            <InfoBox icon={checkmark_icon} title={"Backlogs"} description=
-              {"Clear your backlog by marking off games you've beaten."}/>
+            <InfoBox icon={checkmark_icon} title={"Get Hired"} description=
+              {"Analyze what's working and what's not. Do cover letters matter?"}/>
         </div>
     </div>
   );
