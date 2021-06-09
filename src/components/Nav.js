@@ -12,10 +12,10 @@ function Nav() {
             <a>Logo</a>
           </Link>
         </div>
-        <div class="search-container">
+        {/* <div class="search-container">
             <input id="nav-search" type="text" placeholder="Search"></input>
             <img className="logo-search" src={search_icon}></img>
-        </div>
+        </div> */}
         <Link to="/Login">
           <a id="login-btn">LOGIN</a>
         </Link>
