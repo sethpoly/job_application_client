@@ -3,7 +3,6 @@
   width: 70%;
   height: 100px;
   margin: 0 auto;
-  padding: 20px;
   padding-top: 30px;
 
   background-color: transparent;
@@ -18,9 +17,11 @@
   text-decoration: none; 
   font-size: 17px; 
 }
-.logo-image{
+.title-nav{
   float: left;
-  padding: 10px 15px;
+}
+#site-title{
+  font-size: 25px;
 }
 #nav-search{
   width: 100%;

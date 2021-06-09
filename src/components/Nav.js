@@ -7,9 +7,9 @@ function Nav() {
   return (
     <div>
       <div className="nav-bar">
-        <div className="logo-image">
+        <div className="title-nav">
           <Link to="/">
-            <a>Logo</a>
+            <a id="site-title">Job Tracker</a>
           </Link>
         </div>
         {/* <div class="search-container">
